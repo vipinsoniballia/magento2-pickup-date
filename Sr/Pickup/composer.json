@@ -1,0 +1,22 @@
+{
+    "name": "sr/module-pickup",
+    "description": "Add Pickup date in checkout",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sr\\Pickup\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
