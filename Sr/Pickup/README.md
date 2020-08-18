@@ -17,7 +17,8 @@ Add Pickup date in checkout
 
 ### Type 1: Zip file
 
- - Unzip the zip file in `app/code/Sr`
+ - Unzip the zip file
+ - Copy/Move/Upload `Sr` folder to `app/code`
  - Enable the module by running `php bin/magento module:enable Sr_Pickup`
  - Apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
